@@ -1,4 +1,4 @@
-# Introducción a Symfony #
+# Introducción a Symfony # {#introduccion-a-symfony-2}
 
 Symfony es un framework PHP basado en la arquitectura MVC (Model-View-Controller). Fue escrito desde un origen para ser utilizado sobre la versión 5 de PHP ya que hace ampliamente uso de la orientación a objetos que caracteriza a esta versión y desde la versión 2 de Symfony se necesita mínimamente  PHP 5.3.
 
