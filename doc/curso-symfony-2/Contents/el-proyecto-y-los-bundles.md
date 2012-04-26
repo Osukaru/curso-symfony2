@@ -1,4 +1,4 @@
-# El proyecto y los Bundles #
+# El proyecto y los Bundles # {#el-proyecto-y-los-bundles}
 
 En el [capítulo anterior](#introduccion-a-symfony-2) hemos descargado el framework Symfony y lo hemos descomprimido en la carpeta correspondiente a nuestro localhost, lo que sería C:\\wamp\\www\\ ya que estamos usando wampserver. Con esto hecho, ya hemos realizado nuestra instalación y pudimos ingresar a la página de bienvenida por defecto en <http://localhost/Symfony/web/app_dev.php>. Para continuar entremos en más detalles sobre la estructura de nuestro proyecto.
 
@@ -34,7 +34,7 @@ Dicho de otra manera, mientras estemos trabajando con la construcción y program
 
 Para probarlo puedes hacer lo siguiente: Si ingresas a esta dirección <http://localhost/Symfony/web/app_dev.php> ves la página de bienvenida desde el entorno de desarrollo. Si quieres acceder a la misma desde el entorno de producción usas el controlador frontal correspondiente al mismo <http://localhost/Symfony/web/app.php>.
 
-### Nota ###
+##### Nota #####
 > En caso de que al ingresar a la URL correspondiente al entorno de producción salga un error puedes probar borrando el contenido de la carpeta app\\cache\\.
 
 ## La cache de Symfony ##
@@ -65,7 +65,7 @@ Como un punto de seguridad también es importante saber que en el entorno de des
 
 Ya hemos venido nombrando esta palabra dentro de este capítulo así que hablemos un poco más detalladamente. Un Bundle es básicamente una carpeta que contiene los archivos necesarios para un grupo de funcionalidades específicas, como por ejemplo un blog, un carrito de compras o hasta el mismo frontend y backend de nuestra aplicación. La idea es que yo debería poder llevar este Bundle a otro proyecto y reutilizarlo si quiero.
 
-### Nota ###
+##### Nota #####
 
 > Para los que hayan trabajado con la versión 1.x de Symfony, un Bundle es una mezcla entre las aplicaciones y los plugins ya que este es el motivo por el cual decíamos que a partir de la versión 2 un proyecto debería tener una sola aplicación y no varias como anteriormente era normal, debido a que para este concepto existen los Bundles. Con relación a los Plugins, estos deberán ser reescritos como Bundles.
 
@@ -107,7 +107,7 @@ Ahora usaremos la utilidad mencionada para pedirle a Symfony que nos diga que ve
 
 Al ejecutar esto se nos mostrará un texto similar a: Symfony version 2.0.0 – app/dev/debug
 
-### Nota ###
+##### Nota #####
 
 > En caso de que no se encuentre el comando “php”, deberá agregar el directorio C:\\wamp\\bin\\php\\php5.3.5\\ al PATH del Windows, carpeta que contiene el interprete de PHP (php.exe).
 > Es posible que necesites cerrar y volver a entrar al CMD si haces este cambio.
@@ -153,7 +153,7 @@ En el archivo AppKernel.php si lo abrimos, veremos una línea que apunta al arch
          new MDW\\ManualBundle\\MDWDemoBundle(),
     );
 
-### Nota ###
+##### Nota #####
 
 > Para los que trabajaron con Symfony 1.x, esto sería similar a habilitar plugins en el archivo ProjectConfiguration.class.php.
 

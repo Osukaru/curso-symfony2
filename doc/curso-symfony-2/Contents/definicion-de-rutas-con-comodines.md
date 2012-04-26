@@ -1,4 +1,4 @@
-# Definición de rutas con comodines #
+# Definición de rutas con comodines # {#definicion-de-rutas-con-comodines}
 
 No sólo de rutas estáticas se compone una aplicación web, usualmente se necesitan pasar parámetros variables por GET, es decir, por la URL y es aquí en donde el Routing saca lo mejor que tiene. Un marcador de posición o comodín es un segmento de la ruta variable, como por ejemplo: /blog/articulo_x dónde articulo_x es una parte variable que representa la página a consultar, en Symfony2 estos comodines se definen entre llaves “{}”:
 

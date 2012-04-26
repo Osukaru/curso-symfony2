@@ -26,7 +26,7 @@ Contamos con un gran número de librerías, herramientas y helpers que nos ayuda
 
 Sobre todo esto hablaremos en los siguientes capítulos pero antes entendamos un poco más sobre el concepto de la arquitectura MVC y otros muy interesantes.
 
-### Nota ###
+##### Nota #####
 
 > Si ya has trabajado con versiones anteriores de Symfony o ya entiendes el concepto de Arquitectura MVC, Frameworks ORM y Motores de Plantillas puedes ir directamente a la sección “__Documentación oficial__” de este capítulo para conocer más sobre la documentación de Symfony y comenzar a descargar el Framework.
 
@@ -91,7 +91,7 @@ También podemos acceder al blog de noticias más concurrido por la comunidad de
 
 Podremos [descargar](http://symfony.com/download) diferentes versiones de Symfony desde el [sitio oficial](www.symfony.com). La primera es la versión estándar completa comprimida en formato .zip y .tgz y la otra es una versión que no contiene los vendors también en ambos formatos comprimidos. Más adelante entenderemos que son los vendors por lo que descargaremos directamente la versión estándar completa en cualquiera de los dos formatos de compresión.
 
-### Nota ###
+##### Nota #####
 
 > Para este manual se usará la última versión disponible de wampserver utilizando Windows como Sistema Operativo, habiéndolo instalado en C:\wamp\. La última versión de Symfony se encuentra en 2.0.9.
 

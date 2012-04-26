@@ -1,4 +1,4 @@
-# Trabajando con el Controlador en Symfony2 #
+# Trabajando con el Controlador en Symfony2 # {#trabajando-con-el-controlador-en-symfony-2}
 
 En el capítulo anterior aprendimos a crear las rutas hacia nuestros controladores, como algunos ya saben el “Controlador” (o Controller) es la piedra angular de la arquitectura MVC, es lo que nos permite enlazar el modelo de la vista y básicamente donde se construye la aplicación.
 Pero, ¿Que hace exactamente un controlador?

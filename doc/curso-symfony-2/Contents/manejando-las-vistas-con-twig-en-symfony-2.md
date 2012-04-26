@@ -1,4 +1,4 @@
-# Manejando las vistas con Twig en Symfony2 #
+# Manejando las vistas con Twig en Symfony2 # {#manejando-las-vistas-con-twig-en-symfony-2}
 
 Dentro del patrón o arquitectura MVC la vista es la encargada de proporcionar la verdadera “interfaz” a nuestros usuarios, para ello en Symfony2 podemos usar el servicio de Templating (plantillas) y como ya sabrás Twig es el motor por defecto, aunque si lo prefieres puedes usar PHP.
 ¿Por qué Twig?
